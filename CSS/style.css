@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem  6.5rem ;
+}
+header nav{
+    margin: 1.7rem 43.1rem;
+}
+header ul{
+     width: 64.7rem;
+     height: 3.5rem;
+     font-size: 2.4rem;
+     font-family: "IBM Plex Sans Devanagari", sans-serif;
+     display: flex;
+     justify-content: space-between;
+
+}
+header a{
+    margin: 0 2.1rem;
+     color: black;
+}
+a:hover{
+    background-color:#618264 ;
+}
+button{
+    font-family: 'Inter', sans-serif ;
+    font-size: 2.4rem;
+    padding: 2.5rem 5.8rem;
+    width: 20.3rem;
+    height: 6.9rem;
+    text-align: center;
+    color: white;
+    background-color: #618264;
+    cursor: pointer;
+    border-radius: 2.7rem;
+}
+button:hover{
+    background-color: #334735;
+}
+.menu{
+    display: none;
+}
+main{
+    margin-top: 2rem;
+    margin-left: 6.4rem;
+    margin-right: 8.8rem;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 2rem;
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    weight: 600;
+    align-content:flex-end ;
+}
+h2{
+    font-size: 2rem;
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    weight: 600;
+    margin-bottom: 2rem;
+}
+h4{
+    font-size: 1.4rem;
+    font-family:"Open Sans", sans-serif;
+    weight: 100;
+}
+.block1{
+    width:99rem ;
+    height: 80rem;
+    flex: 1.5;
+}
+.block1 img{
+    width:95rem ;
+}
+.b{
+    display: flex;
+    gap: 1.5rem;
+}
+.b div{
+    width: 1.3rem;
+    height: 5rem;
+    border-radius: 2rem;
+    background-color:#618264 ;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49rem;
+    height:70rem;
+    flex:1;
+}
+.b1{
+    width:50rem ;
+    display: flex;
+    gap: 1.5rem
+}
+
+.b2{
+    width:50rem ;
+    display: flex;
+    gap: 1.5rem;
+
+}
+.b3{
+    width:50rem ;
+    display: flex;
+    gap: 1.5rem;
+
+}
+.ligne{
+    width: 50rem;
+    border: 0.5px solid #443434;
+    margin-left: 2.3rem;
+    margin-right: 3.4rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    display: none;
+}
+@media screen and (width < 600px) {
+    header{
+        margin: 2rem 2.3rem;
+    }
+    main{
+         margin-top: 2rem;
+         margin-left: 2rem;
+         margin-right: 2.3rem;
+    }
+    nav{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .block1 img{
+        max-width: 50rem;
+    }
+    .block2{
+        margin-top: 2rem;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    .ligne{
+        display: block;
+    }
+
+    
+}
